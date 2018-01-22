@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.leonchai.a00940442.finalproject.ClassActivity">
+
+    <TextView
+        android:id="@+id/courseNumberTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:text="TextView"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/courseNumberTextView"
+        android:layout_marginTop="24dp"
+        android:textStyle="bold|italic"
+        android:textSize="18sp"
+        android:text="@string/duration"/>
+
+    <TextView
+        android:id="@+id/durationTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:layout_below="@+id/textView3"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="11dp"/>
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="53dp"
+        android:textStyle="bold|italic"
+        android:textSize="18sp"
+        android:text="@string/time"
+        android:layout_alignBaseline="@+id/textView3"
+        android:layout_alignBottom="@+id/textView3"
+        android:layout_alignParentEnd="true"/>
+
+    <TextView
+        android:id="@+id/timeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView6"
+        android:layout_alignTop="@+id/durationTextView"
+        android:text="TextView"/>
+
+    <TextView
+        android:id="@+id/TextView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold|italic"
+        android:textSize="18sp"
+        android:text="@string/days"
+        android:layout_above="@+id/dayTextView"
+        android:layout_alignParentStart="true"/>
+
+    <TextView
+        android:id="@+id/dayTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:layout_above="@+id/textView13"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="12dp"/>
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/durationTextView"
+        android:layout_marginTop="58dp"
+        android:textStyle="bold|italic"
+        android:textSize="18sp"
+        android:text="@string/instructor"/>
+
+    <TextView
+        android:id="@+id/instructorTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView11"
+        android:layout_marginTop="11dp"
+        android:text="TextView"/>
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold|italic"
+        android:textSize="18sp"
+        android:text="@string/campus"
+        android:layout_alignBaseline="@+id/textView11"
+        android:layout_alignBottom="@+id/textView11"
+        android:layout_alignEnd="@+id/textView6"/>
+
+    <TextView
+        android:id="@+id/campusTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/instructorTextView"
+        android:layout_alignStart="@+id/textView13"
+        android:text="TextView"/>
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold|italic"
+        android:textSize="18sp"
+        android:text="@string/notes"
+        android:layout_marginTop="49dp"
+        android:layout_below="@+id/textView17"
+        android:layout_alignParentStart="true"/>
+
+    <TextView
+        android:id="@+id/noteTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView15"
+        android:layout_marginTop="14dp"
+        android:text="TextView"/>
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/instructorTextView"
+        android:layout_marginTop="16dp"
+        android:textStyle="bold|italic"
+        android:textSize="18sp"
+        android:text="@string/cost"/>
+
+    <TextView
+        android:id="@+id/costTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView17"
+        android:text="TextView"/>
+</RelativeLayout>

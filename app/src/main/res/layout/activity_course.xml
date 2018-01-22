@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.leonchai.a00940442.finalproject.CourseActivity">
+
+        <TextView
+            android:id="@+id/courseNameTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:textStyle="bold"
+            android:textSize="28sp"
+            android:text=""/>
+
+        <TextView
+            android:id="@+id/courseNumberTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/courseNameTextView"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:text=""/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:text="@string/description"
+            android:textStyle="bold|italic"
+            android:layout_below="@+id/creditTextView"
+            android:layout_alignParentStart="true"
+            android:id="@+id/textView2"/>
+
+        <TextView
+            android:id="@+id/creditTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/courseNumberTextView"
+            android:text="@string/credits"/>
+
+        <TextView
+            android:id="@+id/descriptiontextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView2"
+            android:maxLines = "10"
+            android:scrollbars = "vertical"/>
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:textStyle="bold|italic"
+        android:layout_below="@+id/descriptiontextView"
+        android:layout_marginTop="22dp"
+        android:text="@string/prerequisite"/>
+
+    <TextView
+        android:id="@+id/prereqTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView5"
+        android:text=""/>
+
+    <ListView
+        android:id="@+id/classListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="13dp"
+        android:layout_below="@+id/prereqTextView"
+        android:layout_alignParentStart="true"/>
+
+
+</RelativeLayout>
+

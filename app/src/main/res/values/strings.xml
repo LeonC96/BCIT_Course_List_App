@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Final Project</string>
+    <string name="description">Description: </string>
+    <string name="credits">"Credits: "</string>
+    <string name="prerequisite">Prerequisites(s):</string>
+    <string name="duration">Duration:</string>
+    <string name="time">Time:</string>
+    <string name="days">Days:</string>
+    <string name="instructor">Instructor:</string>
+    <string name="campus">Campus:</string>
+    <string name="notes">Notes:</string>
+    <string name="cost">Cost:</string>
+</resources>
